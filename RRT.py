@@ -1,6 +1,6 @@
 import pygame
-from vehicles.RRTbasePy import RRTGraph
-from vehicles.RRTbasePy import RRTMap
+from RRTbasePy import RRTGraph
+from RRTbasePy import RRTMap
 import time
 
 def main():
