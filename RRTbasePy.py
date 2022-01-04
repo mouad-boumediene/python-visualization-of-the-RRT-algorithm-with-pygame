@@ -156,6 +156,7 @@ class RRTGraph:
         (x2, y2) = (self.x[n2], self.y[n2])
         if self.crossObstacle(x1, x2, y1, y2):
             self.remove_node(n2)
+            self.goalFlag = False
             return False
         else:
             self.add_edge(n1, n2)
